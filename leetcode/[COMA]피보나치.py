@@ -47,7 +47,7 @@ fib(5)
 
 # 방법 3. 제네레이터 구현 방식 (Generator method)
 def fibs():
-    a,b = 0,1    // generator 출력할 때, next()로 다음것을 출력⇒ 한단계 늦춤
+    a,b = 0,1    # generator 출력할 때, next()로 다음것을 출력⇒ 한단계 늦춤
     while True:
         a,b = b, a+b
         yield a
